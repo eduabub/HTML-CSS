@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in (polegada - 2,54cm), px, pt, pc (paica)
+            
+            Medidas relativas
+            em (Tamanho do M de uma fonte), ex (Altura x de uma fonte), rem, vw (Porcentagem de largura da viewport - tamanho da tela), vh (Porcentagem de altura da viewport), %
+            
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: lighter;
+            /* lighter normal bold bolder*/
+            /* 100 - 900 (400 é o normal) */
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        h1 {
+            /* shorthand font 
+            1 - font-style -> 2 - font-weight -> 3 - font-size -> 4 - font-family 
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus cumque veritatis architecto quo officiis. Odit eum ut est fugiat at! Minus, pariatur obcaecati a soluta ipsum reiciendis, atque exercitationem iste, nihil sunt libero neque totam veritatis eum sed. Ratione sequi quaerat eius dolor doloremque corrupti eveniet provident veritatis quae odit placeat, iure dignissimos aliquam asperiores ab fugit debitis sed omnis dolores similique quia inventore praesentium. Suscipit deserunt cupiditate facilis voluptas aliquid quod praesentium, porro molestias rerum distinctio accusamus consequuntur doloribus numquam illo eum. Iste placeat iure deserunt expedita dolor impedit beatae consectetur voluptas exercitationem quis possimus quibusdam reiciendis, dignissimos modi.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat maiores laborum ratione iste consequuntur, qui accusantium esse. Eligendi, in consequatur odit aspernatur impedit, ipsa tempora temporibus voluptatem ipsam dolores ullam.</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, ipsam necessitatibus, sint tenetur numquam consectetur ut quae reiciendis quisquam, cupiditate error architecto dolores est inventore aperiam itaque sit eveniet <a href="fonte02.html">esse</a>.
+    </p>
+</body>
+</html>
+

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #FF983D, #F28322);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 16px rgba(172, 93, 24, 0.918);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: #A6540C;
+    text-align: center;
+    text-shadow: 1px 1px 2px #683508b4;
+}
+
+h2 {
+    color: #0089A6;
+}
+
+p {
+    text-align: justify;
+}
+
+/* Cores1:
+#98BF45 - verde
+#F28322 - laranja
+#F27B35 - salmão
+#8C251C - vermelho
+#0D0D0D - preto
+*/
+
+/* Cores2:
+#A6540C - marrom
+#FF983D - salmão
+#F28322 - laranja
+#0089A6 - azul escuro
+#22CEF2 - azul claro
+*/
