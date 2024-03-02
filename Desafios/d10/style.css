@@ -92,6 +92,7 @@ footer > aside {
     background-color: #36c777;
     color: whitesmoke;
     border-radius: 10px;
+    border: 1px;
 }
 
 aside {
